@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './BookStore.css';
 import Homepage from './Home';
 import Categories from './Categories';
 
