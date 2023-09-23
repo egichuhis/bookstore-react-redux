@@ -1,4 +1,5 @@
 import React from 'react';
+import Chart from './charts/DonutChart';
 
 const BookCard = () => (
   <div className="card mt-4">
@@ -63,13 +64,7 @@ const BookCard = () => (
             >
               <div className="row">
                 <div className="col-md-6">
-                  <div>
-                    <canvas
-                      style={{ display: 'block', height: 56, width: 119 }}
-                      width={104}
-                      height={49}
-                    />
-                  </div>
+                  <Chart />
                 </div>
                 <div className="col-md-6">
                   <h6 className="text-muted mb-2" style={{ fontSize: 31 }}>
