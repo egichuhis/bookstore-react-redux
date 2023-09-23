@@ -17,7 +17,7 @@ const BookCard = () => (
               >
                 Suzanne Collins
               </h6>
-              <div className="d-flex flex-row justify-content-between">
+              <div className="d-flex flex-row justify-content-start gap-4">
                 <h6
                   className="mb-2"
                   style={{
