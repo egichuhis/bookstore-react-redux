@@ -13,9 +13,9 @@ const AddBook = () => (
         </div>
         <div className="col-md-4 align-self-center" style={{ width: '25%' }}>
           <select style={{ width: '100%' }}>
-            <optgroup label="Author">
+            <optgroup label="Author" placeholder="Author">
               <option value={12} selected="">
-                J.K. Rowling
+                Oprah Winfrey
               </option>
               <option value={13}>Jeffery Archer</option>
               <option value={14}>James Paterson</option>
