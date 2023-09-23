@@ -63,20 +63,19 @@ const BookCard = () => (
 
             >
               <div className="row">
-                <div className="col-md-6">
-                  <Chart />
+                <div className="col-md-6 d-flex justify-content-end">
+                  <div style={{ width: 65 }}>
+                    <Chart />
+                  </div>
                 </div>
-                <div className="col-md-6">
-                  <h6 className="text-muted mb-2" style={{ fontSize: 31 }}>
-                    64%
-                  </h6>
+                <div className="col-md-6 d-flex align-items-center">
                   <h6 className="text-muted mb-2">Completed</h6>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 d-flex justify-content-center">
           <div className="card" style={{ border: 'none' }}>
             <div
               className="card-body"
