@@ -42,10 +42,7 @@
   <summary>React</summary>
 </details>
 <details>
-  <summary>HTML</summary>
-</details>
-<details>
-  <summary>Javascript</summary>
+  <summary>Redux (Toolkit)</summary>
 </details>
 <details>
   <summary>CSS & Bootstrap</summary>
